@@ -1,4 +1,4 @@
-# raktikum1
+# Praktikum1
 Include<iostream>
 
 Int main() {
