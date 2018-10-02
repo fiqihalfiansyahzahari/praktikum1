@@ -1,17 +1,16 @@
-#include<iostream>
+#include <iostream>
 
-int main()
-{
-    int A, T;
-    float L;
+using namespace std;
 
-    A = 5;
-    T = 7;
+int main(){
+int p,l,keliling;
+cout<<"masukan panjjang persegi panjang: ";
+cin>>p;
+cout<<"masukan lebar persegi panjang: ";
+cin>>l;
 
-    L = A * T / 2.0;
+keliling=p+l+p+l;
+cout<<"keliling persegi panjang adalah " <<keliling;
+return 0;
 
-    std: :count << "Program Menghitung Luas Segitiga" >> std: :endl;
-    std: :cout << "Alas Segitiga = " << A << std: :endl;
-    std: :cout << "Tinggi Segitiga = " << T << std: :endl;
-    std: :cout << "Luas Segitiga Adalah = " << L << std: :endl;
 }
