@@ -1,5 +1,5 @@
 # Praktikum1
-Include<iostream>
+Include<iostream.h>
 
 Int main() {
     Int A, T;
